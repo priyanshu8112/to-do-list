@@ -1,0 +1,76 @@
+.container{
+   width:100%;
+   min-height: 100vh;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,182,157,1) 48%, rgba(0,212,255,1) 100%);
+   padding: 10px;
+    
+}
+
+.todo-app{
+   width:100%;
+   max-width: 540px;
+   margin: 100px auto 20px;
+   padding:40px 30px 70px;
+   background: white;
+  
+ }
+ .row button{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    color: rgb(1, 1, 1);
+    background-color: rgba(230, 105, 16, 0.979);
+    font-size: 16px;
+    cursor:pointer;
+ }
+ #input-box{
+    flex: 1;
+    border:none;
+    outline: none;
+    background: transparent;
+    padding:10px;
+    cursor:pointer;
+ }
+ .row{
+    background-color: rgb(229, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+ }
+
+ ul li{
+    list-style-type: decimal;
+    font-size: 17px;
+   padding-top:10px;
+    user-select: none;
+    cursor:pointer;
+ }
+ 
+ #btn1{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    color: rgb(1, 1, 1);
+    background-color: rgba(230, 105, 16, 0.979);
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 40px;
+    
+ }
+
+ #btn2{
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    color: rgb(1, 1, 1);
+    background-color: rgba(230, 105, 16, 0.979);
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 40px;
+    
+ }
